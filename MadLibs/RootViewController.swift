@@ -14,6 +14,8 @@ class RootViewController: NSViewController {
     @IBOutlet weak var singularNounCombo: NSComboBox!
     @IBOutlet weak var pluralNounPopup: NSPopUpButton!
     @IBOutlet var phraseTextView: NSTextView!
+    @IBOutlet weak var amountLabel: NSTextField!
+    @IBOutlet weak var amountSlider: NSSlider!
     @IBAction func goButton(_ sender: AnyObject) {
         let pastTenseVerb = pastTenseVerbTextField.stringValue
         let singularNoun = singularNounCombo.stringValue
@@ -21,6 +23,10 @@ class RootViewController: NSViewController {
         let phrase = phraseTextView.string ?? ""
         
         print("A \(singularNoun) \(pastTenseVerb) \(pluralNoun) and said, '\(phrase)'!");
+    }
+    @IBAction func sliderChanged(_ sender: AnyObject) {
+        let amount = amountSlider.integerValue
+        amountLabel.stringValue = "Amount: [\(amount)]";
     }
     
     var singularNouns: [String]!
