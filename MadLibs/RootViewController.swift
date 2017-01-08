@@ -16,6 +16,8 @@ class RootViewController: NSViewController {
     @IBOutlet var phraseTextView: NSTextView!
     @IBOutlet weak var amountLabel: NSTextField!
     @IBOutlet weak var amountSlider: NSSlider!
+    @IBOutlet weak var datePicker: NSDatePicker!
+    
     @IBAction func goButton(_ sender: AnyObject) {
         let pastTenseVerb = pastTenseVerbTextField.stringValue
         let singularNoun = singularNounCombo.stringValue
@@ -24,6 +26,7 @@ class RootViewController: NSViewController {
         
         print("A \(singularNoun) \(pastTenseVerb) \(pluralNoun) and said, '\(phrase)'!");
     }
+    
     @IBAction func sliderChanged(_ sender: AnyObject) {
         let amount = amountSlider.integerValue
         amountLabel.stringValue = "Amount: [\(amount)]";
@@ -52,6 +55,10 @@ class RootViewController: NSViewController {
         pluralNounPopup.selectItem(at: 0);
         
         phraseTextView.string = "Nitro is the best Puggle!!!";
+        
+        sliderChanged(self);
+        
+        datePicker.dateValue = NSDate() as Date;
     }
     
 }

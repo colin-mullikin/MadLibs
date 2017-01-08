@@ -683,15 +683,15 @@
         <window title="MadLibs" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="288" height="480"/>
+            <rect key="contentRect" x="335" y="390" width="289" height="480"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
-            <value key="minSize" type="size" width="289" height="325"/>
+            <value key="minSize" type="size" width="289" height="475"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="288" height="480"/>
+                <rect key="frame" x="0.0" y="0.0" width="289" height="480"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5DY-ko-QXm">
-                        <rect key="frame" x="157" y="438" width="111" height="22"/>
+                        <rect key="frame" x="158" y="438" width="111" height="22"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="111" id="4Rx-ol-Vtd"/>
                         </constraints>
@@ -718,7 +718,7 @@
                         </textFieldCell>
                     </textField>
                     <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bAc-92-dnV">
-                        <rect key="frame" x="157" y="406" width="113" height="26"/>
+                        <rect key="frame" x="158" y="406" width="113" height="26"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="110" id="kKZ-3O-9cL"/>
                         </constraints>
@@ -742,7 +742,7 @@
                         </textFieldCell>
                     </textField>
                     <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xlJ-zu-nLS">
-                        <rect key="frame" x="155" y="366" width="116" height="26"/>
+                        <rect key="frame" x="156" y="366" width="116" height="26"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="111" id="Qca-In-hTI"/>
                         </constraints>
@@ -767,16 +767,16 @@
                         </textFieldCell>
                     </textField>
                     <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmK-JL-cF8">
-                        <rect key="frame" x="158" y="193" width="110" height="145"/>
+                        <rect key="frame" x="158" y="193" width="111" height="145"/>
                         <clipView key="contentView" id="lbH-0K-eb0">
-                            <rect key="frame" x="1" y="1" width="108" height="143"/>
+                            <rect key="frame" x="1" y="1" width="109" height="143"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView importsGraphics="NO" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="0iY-2E-Gyn">
-                                    <rect key="frame" x="0.0" y="0.0" width="108" height="143"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="109" height="143"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <size key="minSize" width="108" height="143"/>
+                                    <size key="minSize" width="109" height="143"/>
                                     <size key="maxSize" width="463" height="10000000"/>
                                     <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                 </textView>
@@ -787,13 +787,13 @@
                             <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="SdQ-X8-QU3">
-                            <rect key="frame" x="93" y="1" width="16" height="143"/>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="SdQ-X8-QU3">
+                            <rect key="frame" x="94" y="1" width="16" height="143"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-Ka-cwQ">
-                        <rect key="frame" x="212" y="13" width="62" height="32"/>
+                        <rect key="frame" x="213" y="13" width="62" height="32"/>
                         <buttonCell key="cell" type="push" title="Go!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NVU-oI-mf7">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -802,9 +802,8 @@
                             <action selector="goButton:" target="xYo-O1-rlQ" id="yqX-uq-Fdb"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdj-qT-X0X">
-                        <rect key="frame" x="20" y="155" width="83" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hdj-qT-X0X">
+                        <rect key="frame" x="18" y="154" width="83" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Amount: [10]" id="X6y-gb-o6l">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -812,7 +811,7 @@
                         </textFieldCell>
                     </textField>
                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jAn-eh-fYK">
-                        <rect key="frame" x="156" y="154" width="114" height="19"/>
+                        <rect key="frame" x="157" y="154" width="114" height="19"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="110" id="3La-YB-yXb"/>
                         </constraints>
@@ -821,6 +820,29 @@
                             <action selector="sliderChanged:" target="xYo-O1-rlQ" id="nCJ-IQ-KYM"/>
                         </connections>
                     </slider>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="O0y-KV-Kij">
+                        <rect key="frame" x="18" y="129" width="37" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Date:" id="RzM-CH-lH1">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <datePicker verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vJ2-7h-SNd">
+                        <rect key="frame" x="158" y="127" width="114" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="111" id="RK9-uz-jhJ"/>
+                        </constraints>
+                        <datePickerCell key="cell" borderStyle="bezel" alignment="left" id="Vha-AB-Hbu">
+                            <font key="font" metaFont="system"/>
+                            <calendarDate key="date" timeIntervalSinceReferenceDate="-595929600" calendarFormat="%Y-%m-%d %H:%M:%S %z">
+                                <!--1982-02-12 08:00:00 -0800-->
+                                <timeZone key="timeZone" name="US/Pacific"/>
+                            </calendarDate>
+                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        </datePickerCell>
+                    </datePicker>
                 </subviews>
                 <constraints>
                     <constraint firstItem="CIS-kU-WX1" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="0MO-y3-PZN"/>
@@ -830,12 +852,14 @@
                     <constraint firstAttribute="trailing" secondItem="bAc-92-dnV" secondAttribute="trailing" constant="21" id="Lfx-2b-PWi"/>
                     <constraint firstItem="W86-hB-Jtb" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="Mgz-Sc-OGV"/>
                     <constraint firstAttribute="trailing" secondItem="fmK-JL-cF8" secondAttribute="trailing" constant="20" id="Mh8-pq-MDd"/>
-                    <constraint firstItem="Nhd-Ka-cwQ" firstAttribute="top" secondItem="jAn-eh-fYK" secondAttribute="bottom" constant="115" id="S8c-GT-3nl"/>
+                    <constraint firstItem="O0y-KV-Kij" firstAttribute="top" secondItem="hdj-qT-X0X" secondAttribute="bottom" constant="8" id="SSy-nj-Ulj"/>
                     <constraint firstAttribute="trailing" secondItem="jAn-eh-fYK" secondAttribute="trailing" constant="20" id="SbO-VS-HJy"/>
                     <constraint firstItem="tkF-aO-6cK" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="VzY-QG-2MF"/>
                     <constraint firstItem="W86-hB-Jtb" firstAttribute="top" secondItem="CIS-kU-WX1" secondAttribute="bottom" constant="13" id="XNq-af-aDI"/>
                     <constraint firstItem="xlJ-zu-nLS" firstAttribute="top" secondItem="bAc-92-dnV" secondAttribute="bottom" constant="20" id="XfJ-er-CGt"/>
+                    <constraint firstItem="vJ2-7h-SNd" firstAttribute="top" secondItem="jAn-eh-fYK" secondAttribute="bottom" constant="6" id="XyM-LU-juM"/>
                     <constraint firstItem="tkF-aO-6cK" firstAttribute="top" secondItem="W86-hB-Jtb" secondAttribute="bottom" constant="23" id="Yan-2V-dXo"/>
+                    <constraint firstItem="hdj-qT-X0X" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="dz4-tU-wdZ"/>
                     <constraint firstItem="fmK-JL-cF8" firstAttribute="leading" secondItem="n7z-2T-wyT" secondAttribute="trailing" constant="96" id="e64-zD-z2X"/>
                     <constraint firstItem="jAn-eh-fYK" firstAttribute="top" secondItem="fmK-JL-cF8" secondAttribute="bottom" constant="22" id="f95-nM-eMc"/>
                     <constraint firstItem="fmK-JL-cF8" firstAttribute="top" secondItem="xlJ-zu-nLS" secondAttribute="bottom" constant="31" id="kOe-HM-ki5"/>
@@ -844,7 +868,11 @@
                     <constraint firstAttribute="trailing" secondItem="xlJ-zu-nLS" secondAttribute="trailing" constant="20" id="pFZ-gV-Ase"/>
                     <constraint firstItem="bAc-92-dnV" firstAttribute="top" secondItem="5DY-ko-QXm" secondAttribute="bottom" constant="8" id="pHV-f9-COT"/>
                     <constraint firstItem="5DY-ko-QXm" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" id="pwX-5y-qk9"/>
+                    <constraint firstItem="Nhd-Ka-cwQ" firstAttribute="top" secondItem="vJ2-7h-SNd" secondAttribute="bottom" constant="86" id="r4A-Wj-P1t"/>
+                    <constraint firstItem="hdj-qT-X0X" firstAttribute="top" secondItem="jAn-eh-fYK" secondAttribute="top" id="wub-2C-J5y"/>
                     <constraint firstItem="n7z-2T-wyT" firstAttribute="top" secondItem="tkF-aO-6cK" secondAttribute="bottom" constant="33" id="xoz-V6-sO9"/>
+                    <constraint firstItem="O0y-KV-Kij" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="xvS-3X-WG7"/>
+                    <constraint firstAttribute="trailing" secondItem="vJ2-7h-SNd" secondAttribute="trailing" constant="20" id="ywM-C4-wLg"/>
                 </constraints>
             </view>
             <point key="canvasLocation" x="43" y="-21"/>
@@ -853,6 +881,7 @@
             <connections>
                 <outlet property="amountLabel" destination="hdj-qT-X0X" id="kqh-dF-fsd"/>
                 <outlet property="amountSlider" destination="jAn-eh-fYK" id="mUv-Ja-2N7"/>
+                <outlet property="datePicker" destination="vJ2-7h-SNd" id="YYH-bu-dHU"/>
                 <outlet property="pastTenseVerbTextField" destination="5DY-ko-QXm" id="fm5-mi-SCP"/>
                 <outlet property="phraseTextView" destination="0iY-2E-Gyn" id="6S4-Bf-OHi"/>
                 <outlet property="pluralNounPopup" destination="xlJ-zu-nLS" id="WOv-qH-ZNy"/>
